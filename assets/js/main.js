@@ -305,7 +305,7 @@
   /* =====  End of counter up active  ====== */
 
   /* =============================================
-    =            mailchimp active            =
+    =            mailchimp active            =https://cors-anywhere.herokuapp.com/
     ============================================= */
 
   if (('#mc-form').length) {
@@ -313,7 +313,7 @@
       language: 'en',
       callback: mailChimpResponse,
       // ADD YOUR MAILCHIMP URL BELOW HERE!
-      url: 'http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef'
+      url: 'https://edjrconstruction.us2.list-manage.com/subscribe/post?u=560bd76ad81fd496263942572&amp;id=04598909f3'
 
     })
 
@@ -333,22 +333,22 @@
     =            contact map active            =
     ============================================= */
 
-  if ($('.contact-map').length) {
-    function initialize () {
-      var mapOptions = {
-        zoom: 14,
-        scrollwheel: false,
-        center: new google.maps.LatLng(33.65959, -84.0172)
-      }
-      var map = new google.maps.Map(document.getElementById('contact-map'), mapOptions)
-      var marker = new google.maps.Marker({
-        position: map.getCenter(),
-        map: map,
-        animation: google.maps.Animation.BOUNCE
-      })
-    }
-    google.maps.event.addDomListener(window, 'load', initialize)
-  }
+  // if ($('.contact-map').length) {
+  //   function initialize () {
+  //     var mapOptions = {
+  //       zoom: 14,
+  //       scrollwheel: false,
+  //       center: new google.maps.LatLng(33.65959, -84.0172)
+  //     }
+  //     var map = new google.maps.Map(document.getElementById('contact-map'), mapOptions)
+  //     var marker = new google.maps.Marker({
+  //       position: map.getCenter(),
+  //       map: map,
+  //       animation: google.maps.Animation.BOUNCE
+  //     })
+  //   }
+  //   google.maps.event.addDomListener(window, 'load', initialize)
+  // }
 
   /* =====  End of contact map active  ====== */
 })(jQuery)

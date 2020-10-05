@@ -4,7 +4,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["con_name"]));
-				$name = str_replace(array("\r","\n"),array(" "," "),$name);
+		$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["con_email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["con_message"]);
 
@@ -17,7 +17,7 @@
         }
 
         // Set the recipient email address.
-        $recipient = "test@hasthemes.com";
+        $recipient = "eduard@edjrconstruction.com";
 
         // Set the email subject.
         $subject = "Mail From $name";
