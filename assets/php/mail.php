@@ -1,5 +1,5 @@
 <?php
-
+// php version 7.4
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
