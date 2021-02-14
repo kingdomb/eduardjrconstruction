@@ -239,7 +239,7 @@
       effect: 'fade',
       spaceBetween: 30,
       autoplay: {
-        delay: 3000
+        delay: 8000
       },
       pagination: {
         el: '.swiper-pagination-3',
